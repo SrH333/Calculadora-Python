@@ -85,30 +85,3 @@ def main():
 		else:
 			print("Encerrando...")
 			break
-
-
-def demo():
-	print("Executando demo rápido da calculadora:\n")
-	samples = [
-		("Soma", 1, 2, "1"),
-		("Subtração", 5, 3, "2"),
-		("Multiplicação", 4, 2.5, "3"),
-		("Divisão", 10, 2, "4"),
-	]
-	for name, a, b, op in samples:
-		try:
-			res = calculate(op, a, b)
-			print(f"{name}: {a} {'+' if op=='1' else '-' if op=='2' else '*' if op=='3' else '/'} {b} = {res}")
-		except Exception as e:
-			print(f"{name}: erro -> {e}")
-
-
-if __name__ == "__main__":
-	if "--demo" in sys.argv:
-		demo()
-	else:
-		try:
-			main()
-		except (KeyboardInterrupt, EOFError):
-			print("\nEncerrando...")
-
