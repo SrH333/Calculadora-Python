@@ -42,6 +42,7 @@ def mostrar_tela_operacao(op):
 # Janela principal
 root = tk.Tk()
 root.title("Calculadora Básica")
+root.geometry("400x300")  # largura x altura
 
 operacao = tk.StringVar()
 
