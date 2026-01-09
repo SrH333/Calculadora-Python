@@ -48,6 +48,3 @@ Executáveis já gerados:
 
 Contribuições e suporte:
 - Abra uma issue ou envie um pull request descrevendo a melhoria ou correção.
-
-Licença:
-- Este repositório não contém uma licença especificada. Se desejar, adicione um arquivo `LICENSE` com a licença escolhida.
